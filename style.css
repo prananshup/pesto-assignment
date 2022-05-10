@@ -13,3 +13,28 @@ nav {
 nav i {
     padding: 50% 33%;
 }
+footer {
+    background-color: hsla(207, 93%, 29%, 0.968);
+    height: 100px;
+}
+
+footer img {
+    max-height: 100%;
+}
+
+.footer-section {
+    display: inline-block;
+    vertical-align: top;
+    color: hsl(0, 0%, 100%);
+}
+
+section.footer-section-left {
+    float: right;
+    color: white;
+}
+
+.footer-section-left i {
+    margin-top: 3em;
+    margin-right: 1px;
+    margin-left: 10em;
+}
