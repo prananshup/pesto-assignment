@@ -20,6 +20,21 @@ header {
     margin-left: 15px;
 }
 
+main table {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 250px;
+    border-collapse: collapse;
+    width: 95%;
+    height: 25%;
+}
+
+button {
+    color: blue;
+}
+main table tr:nth-child(2n) {
+    background-color: hsl(240, 4%, 95%);
+}
 .header-section p {
     line-height: 0.3em;
 }
@@ -38,7 +53,7 @@ header>img {
     max-height: 100%;
 }
 nav {
-    background-color: hsl(0, 5%, 73%);
+    background-color: hsl(240, 4%, 95%);
     width: 50px;
 }
 
